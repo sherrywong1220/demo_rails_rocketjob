@@ -12,7 +12,7 @@ services:
 
   mongo:
     image: mongo:4.1
-    container_name: mongo4
+    container_name: rocketjob_mongo
     restart: always
     volumes:
       - ./tmp/data/mongo/data:/data/db
